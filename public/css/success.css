@@ -1,0 +1,49 @@
+.success-Page{
+    height: 100%;
+    width: 100%;
+}
+
+.success-Square{
+    border-radius: 25%;
+    height: 450px;
+    width: 450px;
+    border: 10px solid #4e67fe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+.success-Square p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.success-Footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(142,247,255,1) 100%); 
+    color: black;
+    text-align: center;
+}
+
+.success-Footer-Detail{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.success-Footer-Detail p{
+    margin-right: 40px;
+}
+
+.success-Footer-Detail button{
+    color: green;
+    border-color: green;
+}

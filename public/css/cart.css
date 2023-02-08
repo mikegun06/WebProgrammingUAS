@@ -1,0 +1,105 @@
+/*Cart Page*/
+
+.CartPage-Outer-Box{
+    padding: 70px;
+    width: 100%;
+    height: 500px;
+    padding-top: 50px;
+}
+
+.CartPage-Box{
+    margin: auto;
+    height: 250px;
+    width: 800px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.Detail-Purple-Image{
+    height: 150px;
+    width: 150px;
+    border: 10px solid purple;
+    border-radius: 50%;
+}
+
+.Description-Detail{
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.Detail-Flexbox{
+    display: flex;
+}
+
+.Description-Main-Detail{
+    display: flex;
+    margin-right: 50px;
+}
+
+.CartPage-Box-Detail{
+    display: flex;
+}
+
+.CartPage-img-left{
+    height: 250px;
+    width: 250px;
+}
+
+.CartPage-Detail-Right{
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.CartPage-Delete-Button{
+    margin-top: 40px;
+}
+
+.CartPage-Footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.CartPage-Footer-Detail{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.CartPage-Footer-Detail p{
+    margin-right: 40px;
+}
+
+.CartPage-Footer-Detail button{
+    color: green;
+    border-color: green;
+}
+
+.CartPage-Total{
+    display: flex;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.CartPage-Total-Calculation{
+    width: 100%;
+}
+
+.CartPage-Total p{
+    text-align: right;
+    font-size: 20px;
+}
+
+.CartPage-Checkout-Box{
+    width: 200px;
+    margin-right: 100px;
+    margin-left: 30px;
+    text-align: right;
+}

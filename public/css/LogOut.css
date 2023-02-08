@@ -1,0 +1,48 @@
+.LogOut-Page{
+    height: 100%;
+    width: 100%;
+}
+
+.LogOut-Square{
+    border-radius: 25%;
+    height: 450px;
+    width: 450px;
+    border: 10px solid #4e67fe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+.LogOut-Inner-Square-Text{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.LogOut-Footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: lightgreen;
+    color: black;
+    text-align: center;
+}
+
+.LogOut-Footer-Detail{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.LogOut-Footer-Detail p{
+    margin-right: 40px;
+}
+
+.LogOut-Footer-Detail button{
+    color: green;
+    border-color: green;
+}

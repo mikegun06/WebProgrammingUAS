@@ -1,0 +1,525 @@
+body{
+    margin: 0;
+}
+
+.Navigation-bar{
+    width: 100%;
+    height:auto;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(142,247,255,1) 100%); 
+}
+
+.Navigation-Box{
+    width: 100%;
+    padding: 10px;
+}
+
+.Navigation-Text{
+    display: flex;
+}
+
+.Company-Name{
+    margin-left: 100px;
+    width: 75%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Company-Name a{
+    text-decoration: none;
+    color: black;
+}
+
+.Navigation-content{
+    width: 25%;
+    display: flex;
+    margin-right: 200px;    
+}
+
+.Left-Title{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.Left-Item a{
+    text-decoration: none;
+    color: black;
+}
+
+.navigation-item{
+    position: relative;
+    display:inline-block ;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.navigation-item:hover .dropdown-menu{
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+    display: block;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+@-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+@-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+@-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.Final-dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.navigation-item:hover .Final-dropdown-menu{
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+    display: block;
+}
+
+.Right-Title{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.Right-Title a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-body{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(165,106,255,1) 100%); 
+    height: 600px;
+}
+
+/*Main */
+.Main-Body-Purple-Image{
+    height: 150px;
+    width: 150px;
+    border: 10px solid purple;
+    border-radius: 50%;
+}
+
+.Main-Body-Purple-Image img{
+    height: 135px;
+    width: 135px;
+    border-radius: 50%;
+    margin-top: -3px;
+    margin-left: -3px;
+}
+
+.Main-Body-Items{
+    padding: 30px;
+}
+
+.Main-Body-Item-Description{
+    margin-left: 50px;
+}
+
+.Main-Body-Home{
+    
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+.Home-Box-Main{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.Home-Box-Category{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(165,106,255,1) 100%;
+    margin-top: 20px;
+}
+
+.Home-Box-Category a{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.HomeNav-Box{
+    background-color:#fed24e;
+    display:flex;
+    justify-content:space-around;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.Box-Scroll{
+    margin-left: 25%;
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.Box-Scroll .Box-List{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.Box-Scroll .Box-List:hover{
+    background-color: lightskyblue;
+}
+
+.Box-List{
+    margin-left: 20px;  
+    width: 250px;
+    height: 225px;
+    border-radius: 20px;
+    border-style: groove;
+}
+
+.Item-Box img{ 
+    height: 150px;
+    width: 200px;
+}
+
+.Home-Pagination-Controller{
+width: 100%;
+margin-left: 25%;
+}
+
+/*Beauty Category*/
+
+.Beauty-Body-Home{
+    
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+.Beauty-Box-Category{
+    width: 100%;
+    height: 30px;
+    background-color: lightgray;
+    margin-top: 20px;
+}
+
+.Beauty-FlexBox{
+    display: flex;
+}
+
+.Beauty-Box-Category a{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.Beauty-Box-Scroll{
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    height: 575px;
+    background-color: lightblue;
+}
+
+.Beauty-Box-Scroll .Beauty-Box-List{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.Beauty-Box-Scroll .Box-List:hover{
+    background-color: lightskyblue;
+}
+
+.Beauty-Box-List{
+    margin-left: 20px;  
+    margin-top: 20px;
+    width: 250px;
+    height: 225px;
+    border-radius: 20px;
+    border-style: groove;
+}
+
+.Beauty-Item-Box img{ 
+    height: 150px;
+    width: 200px;
+}
+
+/*Manage Product*/
+
+.ManageProduct-Body{
+    width: 100%;
+    height: auto;
+    background-color: rgba(165,106,255,1) 100%;
+    padding-top: 50px;
+}
+
+.ManageProduct-Button{
+    display: flex;
+}
+
+.Top-Things-ManageProduct{
+    display: flex;
+    margin: auto;
+    width: 800px;
+    margin-bottom: 40px;
+    background-color: transparent;
+}
+
+.input-group{
+    display: flex;
+    width: 200px;
+    margin-right: 400px;
+}
+
+.input-group input{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+.input-group button{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+.input-group button:hover{
+    background: #0b7dda;
+}
+
+.Product-Display-ManageProduct{
+    display: flex;
+    margin: auto;
+    height: 150px;
+    width: 800px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.ManageProduct-Outer-Box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ManageProduct-Left-Image{
+    height: 200px;
+    width: 200px;
+}
+
+.ManageProduct-Right-Detail{
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-right: 128px;
+}
+
+.ManageProduct-Outer-Box button{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+/*Add Product*/
+
+.AddProduct-Body{
+    width: 100%;
+    height: 700px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(165,106,255,1) 100%); 
+    padding-top: 50px;
+}
+
+.Top-Things-AddProduct{
+    display: flex;
+    margin: auto;
+    width: 800px;
+    margin-bottom: 40px;
+    background-color: transparent;
+}
+
+.Add-Product-Title{
+    height: 40px;
+    background-color: #4efec6;
+    padding-top: 7px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.AddProduct-Box{
+    margin: auto;
+    height: 550px;
+    width: 800px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.AddProduct-Input-Form{
+    margin: 5px 20px 20px;
+}
+
+.AddProduct-Input-Form label{
+    font-size: 12px;
+}
+
+.AddProduct-Input-Form input{
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgb(255 255 255 / 11%);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    width: 90%;
+    margin-top: 5px;
+    padding: 6px 10px;
+    color: gray;
+    outline: none;
+}
+
+.AddProduct-Input-Form input::placeholder{
+    color: gray;
+}
+
+.AddProduct-Button{
+    margin-left: 20px;
+}
+
+
+
+/*Profile*/
+
+.Profile-Body{
+    width: 100%;
+    height: 700px;
+    background-color: lightgray;
+    padding-top: 50px;
+}
+
+.Top-Things-Profile{
+    display: flex;
+    margin: auto;
+    width: 800px;
+    margin-bottom: 40px;
+    background-color: transparent;
+}
+
+.Profile-Title{
+    height: 40px;
+    background-color: gray;
+    padding-top: 7px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.Profile-Box{
+    margin: auto;
+    height: 550px;
+    width: 800px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.Profile-Input-Form{
+    margin: 5px 20px 20px;
+}
+
+.Profile-Input-Form label{
+    font-size: 12px;
+}
+
+.Profile-Input-Form input{
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgb(255 255 255 / 11%);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    width: 90%;
+    margin-top: 5px;
+    padding: 6px 10px;
+    color: gray;
+    outline: none;
+}
+
+.Profile-Input-Form input::placeholder{
+    color: gray;
+}
+
+.Profile-Button{
+    margin-left: 20px;
+}
+
+.Profile-Input-Form .input-group-append {
+    cursor: pointer;
+}
+
+/*History*/
+
+.History-Background{
+    width: 100%;
+    height: 700px;
+    background-color: lightgray;
+    padding-top: 50px;
+}
+
+.History-Position{
+    margin: auto;
+    height: 250px;
+    width: 800px;
+    margin-bottom: 30px;
+}
+
+.History-Table th{
+    border:1px solid black;
+}
+
+.History-Table td{
+    border:1px solid black;
+}
